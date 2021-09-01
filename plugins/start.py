@@ -74,7 +74,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(text="Anime Channel", url="https://t.me/Anime_Wars"),
-                    InlineKeyboardButton(text="Group", callback_data = "https://t.me/Anime_Chat_English")
+                    InlineKeyboardButton(text="Group", url="https://t.me/Anime_Chat_English")
                 ]
             ]
         )
